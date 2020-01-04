@@ -15,7 +15,7 @@ public class Sample {
 
         WebDriver driver1 = new ChromeDriver();
 		
-		driver1.get("https://www.google.com");
+	
 		
 		
 	}

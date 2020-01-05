@@ -16,6 +16,7 @@ public class Sample {
 		driver.get("https://www.facebook.com");
 		
 		driver.findElement(By.name("firstname")).sendKeys("Lokesh");
+		driver.findElement(By.name("lastname")).sendKeys("Gowda");
 	}
 
 }

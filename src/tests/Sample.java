@@ -21,4 +21,4 @@ public class Sample {
 }
 
 // method - camelCase : getLoginID()
-// variable - camelCase : firstName, no underscoes 
+// variable - camelCase : firstName, no underscoRes 

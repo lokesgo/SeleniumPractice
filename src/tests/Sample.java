@@ -1,23 +1,24 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Wait;
 
 public class Sample {
 
-	public static void main(String args[]){
+	public static void main(String args[]) {
 		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//drivers//chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://www.google.com");
-
-        WebDriver driver1 = new ChromeDriver();
+		driver.get("https://www.facebook.com");
 		
-	
-		
-		
+		driver.findElement(By.name("firstname")).sendKeys("Lokesh");
 	}
 
 }
+
+// method - camelCase : getLoginID()
+// variable - camelCase : firstName, no underscoes 
